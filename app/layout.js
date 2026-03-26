@@ -20,8 +20,13 @@ export default function RootLayout({ children }) {
         <header className="site-header">
           <div className="container nav-shell">
             <Link href="/" className="brand" aria-label="Elite Group home">
-            <img src="/logo.png" alt="Elite Group" style={{ height: "40px", width: "auto" }}
+              <img
+                src="/logo.png"
+                alt="Elite Group"
+                style={{ height: '40px', width: 'auto' }}
+              />
             </Link>
+
             <nav className="nav">
               {nav.map((item) => (
                 <Link key={item.href} href={item.href}>
@@ -29,6 +34,7 @@ export default function RootLayout({ children }) {
                 </Link>
               ))}
             </nav>
+
             <div className="nav-actions">
               <Link className="button button-secondary hide-mobile" href="/contact">
                 Get a quote
@@ -39,16 +45,23 @@ export default function RootLayout({ children }) {
             </div>
           </div>
         </header>
+
         {children}
+
         <footer className="site-footer">
           <div className="container footer-grid">
             <div>
-              <img src="/logo.png" alt="Elite Group" style={{ height: "40px", width: "auto" }} />
+              <img
+                src="/logo.png"
+                alt="Elite Group"
+                style={{ height: '40px', width: 'auto' }}
+              />
               <p>
                 A modern, high-trust website concept for managed print, copier,
                 production print, and AV services.
               </p>
             </div>
+
             <div>
               <h4>Pages</h4>
               <ul>
@@ -59,6 +72,7 @@ export default function RootLayout({ children }) {
                 ))}
               </ul>
             </div>
+
             <div>
               <h4>Contact</h4>
               <ul>
