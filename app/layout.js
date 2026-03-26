@@ -47,7 +47,7 @@ export default function RootLayout({ children }) {
         <footer className="site-footer">
           <div className="container footer-grid">
             <div>
-              <h3>Elite Group</h3>
+              <img src="/logo.png" style={{ height: "40px" }} />
               <p>
                 A modern, high-trust website concept for managed print, copier,
                 production print, and AV services.
