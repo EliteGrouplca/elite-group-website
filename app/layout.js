@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
               <img
                 src="/logo.png"
                 alt="Elite Group"
-                style={{ height: '40px', width: 'auto' }}
+                style={{ height: '60px', width: 'auto' }}
               />
             </Link>
 
