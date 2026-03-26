@@ -50,6 +50,10 @@ img { max-width: 100%; display: block; }
   min-height: 84px;
 }
 
+.brand img {
+  height: 70px !important;
+}
+
 .brand {
   display: inline-flex;
   align-items: center;
