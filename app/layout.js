@@ -47,7 +47,7 @@ export default function RootLayout({ children }) {
         <footer className="site-footer">
           <div className="container footer-grid">
             <div>
-              <img src="/E main.png" style={{ height: "40px" }} />
+              <img src="/logo.png" style={{ height: "40px" }} />
               <p>
                 A modern, high-trust website concept for managed print, copier,
                 production print, and AV services.
