@@ -20,11 +20,7 @@ export default function RootLayout({ children }) {
         <header className="site-header">
           <div className="container nav-shell">
             <Link href="/" className="brand" aria-label="Elite Group home">
-              <span className="brand-mark">EG</span>
-              <span>
-                <strong>Elite Group</strong>
-                <small>Print management solutions</small>
-              </span>
+            <img src="/logo.png" alt="Elite Group" style={{ height: "40px", width: "auto" }}
             </Link>
             <nav className="nav">
               {nav.map((item) => (
@@ -47,7 +43,7 @@ export default function RootLayout({ children }) {
         <footer className="site-footer">
           <div className="container footer-grid">
             <div>
-              <img src="/logo.png" style={{ height: "40px" }} />
+              <img src="/logo.png" alt="Elite Group" style={{ height: "40px", width: "auto" }} />
               <p>
                 A modern, high-trust website concept for managed print, copier,
                 production print, and AV services.
